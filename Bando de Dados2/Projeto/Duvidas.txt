@@ -1,0 +1,1 @@
+fazer sistema de lucro, onde calcula saida de dinheiro e entrada de dinheiro, ingrediente menos lucro

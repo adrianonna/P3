@@ -1,0 +1,1 @@
+Um cliente pode ser de natureza física ou jurídica e ele pode estar cadastrado no sistema sem necessáriamente ter realizado algum pedido, porém todo pedido necessariamente precisa estar vinculado a algum cliente assim como todo pedido precisa ter um pagamento e estar relacionado a algum entregador, visto que só funciona na modalidade delivery.

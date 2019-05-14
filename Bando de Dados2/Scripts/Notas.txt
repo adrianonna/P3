@@ -1,0 +1,28 @@
+WHERE coluna
+between valor and valor --entre dois valores
+in (valor, valor) --quando é algum dos valores
+is [not] null --quando o valor da coluna é null ou não
+like 'A%' --quando algum nome começa com "A"
+
+distinct --mostra a quantidade de algo, conta.
+create table tabela (chave tipo, chave tipo..)
+insert into tabela values(valor, valor...)
+
+--subconsulta
+select... from/in/not in/on/not exists (select...
+
+--privilpegios
+revoke, grant
+all(todos os privilegios), insert, update, delete, execute(executa funções ou procedimentos armazenados), select
+create, alter, drop
+
+grant select ou select(nome_dos_clientes) --da permissão para usar select de forma geral ou em colunas expecificas
+on Pedido.Cliente --Na tabela cliente do banco Pedido (*.* todos os bancos e tabelas)
+to usuário --permissão para tal usuário.
+
+--criando views
+create view nome_da_view (colunas, colunas...)
+as select colunas
+from tabela
+where condições --podendo usar "join outra_tabela on pk=fk", antes do where
+
